@@ -194,14 +194,14 @@
     width: 398px;
     height: 507px;
     margin-left: -2px;
-    margin-top: -16px;
+    margin-top: 72px;
 }
 
 .lastest-articles-content:nth-child(3) {
     float: left;
     width: 398px;
     height: 507px;
-    margin-left: 80px;
+    margin-left: 95px;
     margin-top: 135px;
 }
 
@@ -210,8 +210,9 @@
     width: 398px;
     height: 507px;
     margin-right: 82px;
-    margin-top: -16px;
+    margin-top: 72px;
 }
+
 
 
 .lastest-articles-content-image-1 {
@@ -233,7 +234,7 @@
 }
 .lastest-articles-content-header {
     border-bottom: 1px solid #ad7835;
-    width: 369px;
+    width: 395px;
     color: #ad7835;
     font-family: 'Droid Serif', serif;
     font-size: 20px;
@@ -250,6 +251,12 @@
     line-height: 28px;
     padding-top: 25px;
 }
+
+.lastest-articles-content-text {
+    margin-left: 48px;
+    width: 420px;
+}
+
 .lastest-articles-content-text a {
     color: #ad7835;
     font-family: 'Raleway', sans-serif;
@@ -259,18 +266,23 @@
     text-decoration: none;
     display: block;
     text-transform: uppercase;
-    padding-top: 35px;
+    margin-top: 35px;
+    width: 118px;
+}
+
+.lastest-articles-content-text a:hover {
+    color: white;
 }
 
 
-/*------------------------------Gallery styles------------------------------------*/
+    /*------------------------------Gallery styles------------------------------------*/
 
 .gallery {
     width: 1444px;
     height: 1455px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 233px;
+    margin-top: 246px;
 
 }
 
@@ -281,6 +293,7 @@
     font-weight: 400;
     line-height: 81px;
     padding-left: 80px;
+    padding-top: 36px;
     position: relative;
 }
 
@@ -292,7 +305,7 @@
     position: absolute;
     display: inline-block;
     left: 80px;
-    top: 75px;
+    top: 111px;
 }
 .gallery-photos {
     display: table;
@@ -300,7 +313,6 @@
     height: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
 }
 
 .gallery-photos-left {
@@ -411,8 +423,10 @@
 .contact-container {
     background: url("images/Contact_bg.png") no-repeat;
     width: 1444px;
-    height: 930px;
-    margin: 0 auto;
+    height: 880px;
+    margin-top: 77px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -525,8 +539,8 @@
 .footer {
     width: 406px;
     height: 80px;
-    margin: 0 auto;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-facebook {
