@@ -164,7 +164,6 @@
     width: 1444px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid white;
     height: 839px;
 }
 
@@ -191,7 +190,6 @@
 
 
 .lastest-articles-content {
-    border: 1px solid white;
     float: left;
     width: 398px;
     height: 507px;
@@ -200,7 +198,6 @@
 }
 
 .lastest-articles-content:nth-child(3) {
-    border: 1px solid white;
     float: left;
     width: 398px;
     height: 507px;
@@ -209,7 +206,6 @@
 }
 
 .lastest-articles-content:last-child {
-    border: 1px solid white;
     float: right;
     width: 398px;
     height: 507px;
@@ -222,21 +218,18 @@
     background: url("images/article_image_1.png") no-repeat;
     width: 480px;
     height: 378px;
-    border: 1px solid white;
 }
 
 .lastest-articles-content-image-2 {
     background: url("images/article_image_2.png") no-repeat;
     width: 480px;
     height: 378px;
-    border: 1px solid white;
 }
 
 .lastest-articles-content-image-3 {
     background: url("images/article_image_3.png") no-repeat;
     width: 480px;
     height: 378px;
-    border: 1px solid white;
 }
 .lastest-articles-content-header {
     border-bottom: 1px solid #ad7835;
@@ -273,7 +266,6 @@
 /*------------------------------Gallery styles------------------------------------*/
 
 .gallery {
-    border: 1px solid white;
     width: 1444px;
     height: 1455px;
     margin-left: auto;
@@ -306,33 +298,21 @@
     display: table;
     width: 1326px;
     height: 1200px;
-    border: 1px solid white;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
 }
 
 .gallery-photos-left {
-    border: 1px solid white;
     height: 1110px;
     width: 440px;
     float: left;
-}
-
-.gallery-photos-left-top {
-    border: 1px solid white;
 }
 
 .gallery-photos-left-top div {
     width: 510px;
     height: 426px;
     background: url("images/tb_left_top.png") no-repeat top right;
-    border: 1px solid white;
-
-}
-
-.gallery-photos-left-bottom {
-    border: 1px solid white;
 
 }
 
@@ -340,11 +320,9 @@
     width: 510px;
     height: 630px;
     background: url("images/tb_left_bottom.png") no-repeat top right;
-    border: 1px solid white;
     margin-top: -56px;
 }
 .gallery-photos-right {
-    border: 1px solid white;
     height: 1110px;
     width: 857px;
     float: right;
@@ -354,7 +332,6 @@
 .gallery-photos-right-top {
     width: 800px;
     height: 300px;
-    border: 1px solid white;
 }
 
 .gallery-photos-right-top-1 {
@@ -362,7 +339,6 @@
     width: 442px;
     background: url("images/tb_top_left.png") no-repeat bottom left;
     float: left;
-    border: 1px solid white;
     margin-left: -71px;
 }
 
@@ -371,7 +347,6 @@
     height: 318px;
     width: 458px;
     background: url("images/tb_top_right.png") no-repeat bottom right;
-    border: 1px solid white;
     margin-right: -36px;
     margin-top: 103px;
 }
@@ -379,22 +354,18 @@
 .gallery-photos-right-middle {
     width: 924px;
     height: 420px;
-    border: 1px solid white;
     background: url("images/tb_right_middle.png") no-repeat top right;
-    border: 1px solid white;
 }
 
 .gallery-photos-right-bottom {
     width: 800px;
     height: 300px;
-    border: 1px solid white;
 }
 
 .gallery-photos-right-bottom-1 {
     height: 445px;
     width: 442px;
     background: url("images/tb_bottom_left.png") no-repeat top left;
-    border: 1px solid white;
     float: left;
     margin-left: -72px;
     margin-top: -48px;
@@ -405,7 +376,6 @@
     width: 442px;
     background: url("images/tb_bottom_right.png") no-repeat top left;
     float: left;
-    border: 1px solid white;
     margin-left: -48px;
     margin-top: -46px;
 }
@@ -458,7 +428,6 @@
 .contact-forms {
     width: 478px;
     height: 500px;
-    border: 1px solid white;
     float: right;
     margin-top: 99px;
     margin-right: 125px;
@@ -485,7 +454,6 @@
 }
 
 .contact-forms-mid {
-    border: 1px solid white;
     width: 476px;
     height: 50px;
     margin-top: 50px;
@@ -511,14 +479,13 @@
 }
 
 .contact-forms-message {
-    border: 1px solid white;
     width: 476px;
     height: 150px;
     margin-top: 30px;
 
 }
 
-.contact-forms-message textarea{
+.contact-forms-message textarea {
     width: 470px;
     height: 75px;
     margin-top: 30px;
@@ -534,7 +501,7 @@
     resize: none;
 }
 
-.contact-forms a{
+.contact-forms a {
     display: block;
     width: 180px;
     height: 57px;
@@ -550,13 +517,12 @@
     margin-top: 20px;
 }
 
-.contact-forms a:hover{
+.contact-forms a:hover {
     color: white;
     background: #ad7835;
 }
 
 .footer {
-    border: 1px solid white;
     width: 406px;
     height: 80px;
     margin: 0 auto;
