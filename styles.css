@@ -321,19 +321,44 @@
     float: left;
 }
 
-.gallery-photos-left-top div {
+.gallery-photos-left-top {
     width: 510px;
     height: 426px;
     background: url("images/tb_left_top.png") no-repeat top right;
-
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.gallery-photos-left-top:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
 }
 
-.gallery-photos-left-bottom div {
+.gallery-photos-left-bottom {
     width: 510px;
     height: 630px;
     background: url("images/tb_left_bottom.png") no-repeat top right;
     margin-top: -56px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
 }
+
+.gallery-photos-left-bottom:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
 .gallery-photos-right {
     height: 1110px;
     width: 857px;
@@ -352,6 +377,19 @@
     background: url("images/tb_top_left.png") no-repeat bottom left;
     float: left;
     margin-left: -71px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-top-1:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
 }
 
 .gallery-photos-right-top-2 {
@@ -361,12 +399,38 @@
     background: url("images/tb_top_right.png") no-repeat bottom right;
     margin-right: -36px;
     margin-top: 103px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-top-2:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
 }
 
 .gallery-photos-right-middle {
     width: 924px;
     height: 420px;
     background: url("images/tb_right_middle.png") no-repeat top right;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-middle:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
 }
 
 .gallery-photos-right-bottom {
@@ -381,6 +445,19 @@
     float: left;
     margin-left: -72px;
     margin-top: -48px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-bottom-1:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
 }
 
 .gallery-photos-right-bottom-2 {
@@ -390,6 +467,19 @@
     float: left;
     margin-left: -48px;
     margin-top: -46px;
+    display: block;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.gallery-photos-right-bottom-2:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
 }
 
 .gallery-link {
