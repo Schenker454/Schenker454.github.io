@@ -426,6 +426,8 @@
     font-size: 23px;
     font-weight: 400;
     line-height: 30px;
+    display: block;
+    padding-top: 4%;
 }
 
 /*----------------------Content projects styles---------------------------*/
