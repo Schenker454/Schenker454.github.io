@@ -415,8 +415,8 @@
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    line-height: 48px;
     display: inline-block;
+    margin-bottom: 48px;
 }
 
 .projects-links a:hover:after {
@@ -426,7 +426,7 @@
     background-color: black;
     display: inline-block;
     position: absolute;
-    top: 40px;
+    bottom: -5px;
     left: 25%;
     color: black;
 }

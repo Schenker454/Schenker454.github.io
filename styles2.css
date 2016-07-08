@@ -325,6 +325,10 @@
         transition: all 0.5s ease 0s;
         float: none;
     }
+
+    .projects-links li:nth-child(n) {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -344,6 +348,7 @@
         margin-right: auto;
         margin-left: auto;
         text-align: center;
+        width: 128px;
     }
 
     .content-heading-bottom-element {
@@ -571,6 +576,10 @@
 
     .content-logos-container {
         width: 180px;
+        margin: 0 auto;
+    }
+
+    .projects-links li:nth-child(n) {
         margin: 0 auto;
     }
 
