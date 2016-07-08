@@ -44,7 +44,7 @@
             <entry file="file://$PROJECT_DIR$/styles.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.35714287">
-                  <caret line="1033" column="14" selection-start-line="1033" selection-start-column="14" selection-end-line="1033" selection-end-column="14" />
+                  <caret line="990" column="14" selection-start-line="990" selection-start-column="14" selection-end-line="990" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -90,8 +90,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="489" />
-    <option name="y" value="43" />
+    <option name="x" value="74" />
+    <option name="y" value="98" />
     <option name="width" value="1825" />
     <option name="height" value="903" />
   </component>
@@ -223,10 +223,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="489" y="43" width="1825" height="903" extended-state="0" />
-    <editor active="false" />
+    <frame x="74" y="98" width="1825" height="903" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1359821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1359821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -434,7 +434,7 @@
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35714287">
-          <caret line="1033" column="14" selection-start-line="1033" selection-start-column="14" selection-end-line="1033" selection-end-column="14" />
+          <caret line="990" column="14" selection-start-line="990" selection-start-column="14" selection-end-line="990" selection-end-column="14" />
           <folding />
         </state>
       </provider>
