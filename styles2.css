@@ -101,6 +101,7 @@
         margin-right: auto;
         margin-left: auto;
         text-align: center;
+        width: 120px;
     }
 
     .content-heading-bottom-element {
@@ -341,9 +342,6 @@
         width: 316px;
     }
 
-    .projects-links {
-        width: 78px;
-    }
     .projects-links {
         margin-right: auto;
         margin-left: auto;
