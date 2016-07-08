@@ -937,6 +937,7 @@
     width: 100%;
     background: url("images/footer-rop.png") no-repeat top center;
     background-size: cover;
+    background-color: black;
 }
 
 .footer-txt-lnk {
