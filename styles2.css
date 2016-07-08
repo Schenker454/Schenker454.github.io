@@ -348,7 +348,7 @@
         margin-right: auto;
         margin-left: auto;
         text-align: center;
-        width: 128px;
+        width: 120px;
     }
 
     .content-heading-bottom-element {
@@ -577,6 +577,13 @@
     .content-logos-container {
         width: 180px;
         margin: 0 auto;
+    }
+
+    .projects-links {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        width: 120px;
     }
 
     .projects-links li:nth-child(n) {
