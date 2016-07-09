@@ -120,14 +120,13 @@
 /*-----------------------HEADER CONTENT------------------*/
 
 .header-content {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 166px auto 0;
     text-align: center;
     color: white;
-    margin-top: 166px;
     clear: both;
     padding-top: 188px;
     padding-bottom: 223px;
+    width: 80%;
 }
 
 .header-content-top {
@@ -490,7 +489,6 @@
     margin-right: 30px;
     margin-top: 30px;
     margin-left: 30px;
-    margin-left: 30px;
 }
 
 .content-gallery-cell-bot:nth-child(2) {
@@ -675,7 +673,7 @@
     display: inline-block;
     padding-bottom: 150px;
     width: 128px;
-    float: left;
+    outline: none;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
@@ -723,7 +721,7 @@
 }
 
 .content-logos-container a:nth-child(n){
-    padding-right: 30px;
+
 }
 
 .content-logos-container a:last-child {
@@ -736,6 +734,7 @@
     background: url("images/comments_bg.png") no-repeat top center;
     background-size: cover;
     text-align: center;
+    background-color: #ededed;
 }
 
 .content-heading-top-2 {
@@ -816,8 +815,8 @@
     position: absolute;
     display: inline-block;
     top: 100%;
-    left: 48.5%;
-    width: 31px;
+    left: 47%;
+    width: 6%;
     height: 3px;
     background-color: #e8e8e8;
 }
@@ -1168,4 +1167,17 @@
     font-weight: 400;
     line-height: 30px;
     padding-top: 55px;
+}
+
+.third-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#menu {
+
+}
+
+#header-lnk {
+
 }
