@@ -111,6 +111,16 @@
     position: absolute;
     top: 20px;
     color: white;
+
+    /*content: '';
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    bottom: -5px;
+    left: 25%;
+    color: black;*/
 }
 
 .header-links a:hover {
@@ -1181,3 +1191,8 @@
 #header-lnk {
 
 }
+
+.slicknav_menu {
+    display:none;
+}
+

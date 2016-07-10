@@ -330,6 +330,19 @@
     .projects-links li:nth-child(n) {
         margin: 0 auto;
     }
+
+    /* #menu is the original menu */
+    #menu {
+        display:none;
+    }
+
+    .slicknav_menu {
+        display:block;
+    }
+
+    #projects {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -586,5 +599,17 @@
 
     .projects-links li:nth-child(n) {
         margin: 0 auto;
+    }
+
+    #menu {
+        display:none;
+    }
+
+    .slicknav_menu {
+        display:block;
+    }
+
+    #projects {
+        display: none;
     }
 }

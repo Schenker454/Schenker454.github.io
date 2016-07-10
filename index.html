@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,13 @@
     <link rel="stylesheet" href="styles2.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="SlickNav/slicknav.css">
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://use.fontawesome.com/55367a5b31.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.js"></script>
     <title>Adaptive page</title>
 </head>
 <body>
@@ -27,7 +29,7 @@
         <div class="header-logo">
             <span>Architecture</span>
         </div>
-        <div class="header-links" id="header-lnk">
+        <div class="header-links">
             <ul id="menu">
                 <li>
                     <a href="#">
@@ -60,6 +62,13 @@
                     </a>
                 </li>
             </ul>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('#menu').slicknav({
+                        prependTo: '.header-links'
+                    });
+                });
+            </script>
         </div>
         <div class="header-content">
             <div>
@@ -84,10 +93,6 @@
                 </div>
             </div>
         </div>
-        <!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>-->
-
         <script type="text/javascript">
             $(document).ready(function(){
                 $('.header-content').slick({
@@ -177,7 +182,7 @@
         <p class="content-heading-top-text">Some of the projects we have done since it was founded.</p>
     </div>
         <div class="projects-links">
-        <ul>
+        <ul id="projects">
             <li>
                 <a href="#">
                     All projects
@@ -209,6 +214,14 @@
                 </a>
             </li>
         </ul>
+            <script src="SlickNav/jquery.slicknav.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('#projects').slicknav({
+                        prependTo: '.projects-links'
+                    });
+                });
+            </script>
     </div>
         <div class="content-gallery clearfix">
         <div class="gal-cont-top container">
@@ -304,51 +317,7 @@
         </div>
     </div>
 </div>
-<!--<div class="header-content">
-            <div>
-                <p class="header-content-top">Architecture Template</p>
-                <p class="header-content-bottom">Built with Bootstrap</p>
-                <div>
-                    <a href="#" class="header-content-link">Learn more</a>
-                </div>
-            </div>
-            <div>
-                <p class="header-content-top">Architecture Template</p>
-                <p class="header-content-bottom">Built with Bootstrap</p>
-                <div>
-                    <a href="#" class="header-content-link">Learn more</a>
-                </div>
-            </div>
-            <div>
-                <p class="header-content-top">Architecture Template</p>
-                <p class="header-content-bottom">Built with Bootstrap</p>
-                <div>
-                    <a href="#" class="header-content-link">Learn more</a>
-                </div>
-            </div>
-        </div> -->
-<!--<div class="content-logos container">
-    <div class="content-logos-container">
-        <ul>
-            <li>
-                <a href="#" class="lg-lnk-1"></a>
-            </li>
-            <li>
-                <a href="#" class="lg-lnk-2"></a>
-            </li>
-            <li>
-                <a href="#" class="lg-lnk-3"></a>
-            </li>
-            <li>
-                <a href="#" class="lg-lnk-4"></a>
-            </li>
-            <li>
-                <a href="#" class="lg-lnk-5"></a>
-            </li>
-        </ul>
-    </div>
-</div>-->
-    <div class="content-logos-container">
+<div class="content-logos-container">
         <div>
             <a href="#" class="lg-lnk-1"></a>
         </div>
@@ -364,8 +333,8 @@
         <div>
             <a href="#" class="lg-lnk-5"></a>
         </div>
-    </div>
-<script type="text/javascript">
+</div>
+<<script type="text/javascript">
     $(document).ready(function(){
         $('.content-logos-container').slick({
             setting-name: setting-value
@@ -469,7 +438,7 @@
         slidesToShow: 1,
         adaptiveHeight: true
     });
-</script>
+</script>-
 <div class="blog">
     <div class="container">
         <div class="content-heading-top">
