@@ -1,555 +1,540 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300,500' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" href="SlickNav/slicknav.css">
-    <script type="text/javascript" src="jquery-3.0.0.min.js"></script>
-    <script src="https://use.fontawesome.com/55367a5b31.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="SlickNav/jquery.slicknav.js"></script>
-    <script src="scroll.js"></script>
-    <scripy scr="main.js"></scripy>
-    <title>Adaptive page</title>
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mainstyles.css">
+    <title>Page 3</title>
 </head>
 <body>
-<header class="header">
-    <div class="container" id="top">
-        <div class="header-logo">
-            <span>Architecture</span>
+<header class="container-fluid head">
+    <div class="container">
+        <div class="col-lg-3 row header-logo">
+            <span>Business Name</span>
         </div>
-        <div class="header-links">
-            <ul id="menu">
+        <div class="col-lg-9 row ">
+            <ul class="header-list">
                 <li>
-                    <a href="#">
-                        Home
-                    </a>
+                    <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#proj">
-                        Projects
-                    </a>
+                    <a href="#">Services</a>
                 </li>
                 <li>
-                    <a href="#proj">
-                        What we do
-                    </a>
+                    <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#proj">
-                        About us
-                    </a>
+                    <a href="#">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#proj">
-                        Contact us
-                    </a>
+                    <a href="#">Testimonials</a>
                 </li>
                 <li>
-                    <a href="#">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                    </a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
-            <script type="text/javascript">
-                $(document).ready(function(){
-                    $('#menu').slicknav({
-                        prependTo: '.header-links'
-                    });
-                });
-            </script>
         </div>
-        <div class="header-content">
-            <div>
-                <p class="header-content-top">Architecture Template</p>
-                <p class="header-content-bottom">Built with Bootstrap</p>
+        <div class="col-lg-12 clearfix">
+            <div class="header-text">
                 <div>
-                    <a href="#" class="header-content-link">Learn more</a>
+                    <span class="header-text-top">
+                        Simple, Fresh & Unique Design
+                    </span>
+                    <span class="header-text-sub">
+                        Donec posuere augue venenatis
+                    </span>
+                    <div class="header-link">
+                        <a href="#">Show more</a>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <p class="header-content-top">Architecture Template</p>
-                <p class="header-content-bottom">Built with Bootstrap</p>
                 <div>
-                    <a href="#" class="header-content-link">Learn more</a>
+                    <span class="header-text-top">
+                        Simple, Fresh & Unique Design
+                    </span>
+                    <span class="header-text-sub">
+                        Donec posuere augue venenatis
+                    </span>
+                    <div class="header-link">
+                        <a href="#">Show more</a>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <p class="header-content-top">Architecture Template</p>
-                <p class="header-content-bottom">Built with Bootstrap</p>
                 <div>
-                    <a href="#" class="header-content-link">Learn more</a>
+                    <span class="header-text-top">
+                        Simple, Fresh & Unique Design
+                    </span>
+                    <span class="header-text-sub">
+                        Donec posuere augue venenatis
+                    </span>
+                    <div class="header-link">
+                        <a href="#">Show more</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.header-content').slick({
-                    setting-name: setting-value
-            });
-            });
-        </script>
-        <script type="text/javascript">
-            $('.header-content').slick({
-                dots: true,
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                adaptiveHeight: true
-            });
-        </script>
     </div>
 </header>
-<div class="container">
-    <div class="content-heading-top">
-        <p class="content-heading-top-services">Our Services</p>
-        <p class="content-heading-top-symbol">&</p>
-        <p class="content-heading-top-text">Built is the template designed specially for architectures and builders, So start building you web site with built.</p>
+<div class="container content-offer">
+    <div class="col-lg-12">
+        <span class="header-font content-header-text">What we offer</span>
+        <span class="content-offer-subtext">Vestibulum elementum ex ullamcorper ligula vulputate</span>
     </div>
-    <div class="content-heading-bottom container">
-        <ul>
-            <li>
-                <div class="content-heading-bottom-element">
-                    <div class="content-heading-bottom-element-icon-1">
-                        <i class="fa fa-file-archive-o" aria-hidden="true"></i>
-                    </div>
-                    <div class="content-heading-bottom-element-text">
-                        <a href="#" class="content-heading-bottom-element-link">
-                            <p class="el-link-txt">Consulting</p>
-                            <p class="el-link-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
-                        </a>
-                    </div>
-                </div>
-                <div class="content-heading-bottom-element">
-                    <div class="content-heading-bottom-element-icon-2">
-                        <i class="fa fa-pencil" aria-hidden="true"></i>
-
-                    </div>
-                    <div class="content-heading-bottom-element-text">
-                        <a href="#" class="content-heading-bottom-element-link">
-                            <p class="el-link-txt">Design</p>
-                            <p class="el-link-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
-                        </a>
-                    </div>
-                </div>
-                <div class="content-heading-bottom-element">
-                    <div class="content-heading-bottom-element-icon-3">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
-                    </div>
-                    <div class="content-heading-bottom-element-text">
-                        <a href="#" class="content-heading-bottom-element-link">
-                            <p class="el-link-txt">Planning</p>
-                            <p class="el-link-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
-                        </a>
-                    </div>
-                </div>
-                <div class="content-heading-bottom-element">
-                    <div class="content-heading-bottom-element-icon-4">
-                        <i class="fa fa-home" aria-hidden="true"></i>
-                    </div>
-                    <div class="content-heading-bottom-element-text">
-                        <a href="#" class="content-heading-bottom-element-link">
-                            <p class="el-link-txt">Building</p>
-                            <p class="el-link-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
-                        </a>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-<div class="content-rect">
-    <div class="container">
-        <span>Felis dolor integer facilisis habitasse a himenaeos urna aliquam taciti ipsum amet eleifend eros nulla.</span>
-    </div>
-</div>
-<div class="content-projects" id="proj">
-    <div class="container">
-        <div class="content-heading-top">
-        <p class="content-heading-top-services">Our Projects</p>
-        <p class="content-heading-top-symbol">&</p>
-        <p class="content-heading-top-text">Some of the projects we have done since it was founded.</p>
-    </div>
-        <div class="projects-links">
-        <ul id="projects">
-            <li>
-                <a href="#top">
-                    All projects
+    <div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 content-offer-article-block">
+            <div class="content-offer-icon-link-1">
+                <a href="#">
                 </a>
-            </li>
-            <li>
-                <a href="#top">
-                    Buildings
-                </a>
-            </li>
-            <li>
-                <a href="#top">
-                    Interior design
-                </a>
-            </li>
-            <li>
-                <a href="#top">
-                    Isolation
-                </a>
-            </li>
-            <li>
-                <a href="#top">
-                    Plumbing
-                </a>
-            </li>
-            <li>
-                <a href="#top">
-                    Tiling
-                </a>
-            </li>
-        </ul>
-    <script src="SlickNav/jquery.slicknav.js"></script>
-    <script type="text/javascript">
-                $(document).ready(function(){
-                    $('#projects').slicknav({
-                        prependTo: '.projects-links',
-                        label: 'Projects'
-                    });
-                });
-            </script>
-    </div>
-        <div class="content-gallery clearfix">
-        <div class="gal-cont-top container">
-            <div class="content-gallery-cell-top">
-                <div class="cnt-gl-lnk">
-                    <p class="el-link-txt-2">Creative buildings</p>
-                    <p class="el-link-content-2">Interior design, Buildings</p>
-                    <div class="cnt-icons">
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
             </div>
-            <div class="content-gallery-cell-top">
-                <div class="cnt-gl-lnk">
-                    <p class="el-link-txt-2">Creative buildings</p>
-                    <p class="el-link-content-2">Interior design, Buildings</p>
-                    <div class="cnt-icons">
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
+            <div class="content-offer-article">
+                <span class="content-offer-article-header">
+                    Vivamus tincidunt
+                </span>
+                <span class="content-offer-article-text">
+                    Fusce velit magna, rutrum id pellentesque in,
+                    imperdiet rutrum neque. Vestibulum elementum
+                    ex ullamcorper ligula vulputate, non malesuada
+                    nisi ullamcorper. Curabitur tellus ligula, laoreet
+                    vitae lectus vitae.
+                </span>
             </div>
-            <div class="content-gallery-cell-top">
-                <div class="cnt-gl-lnk">
-                    <p class="el-link-txt-2">Creative buildings</p>
-                    <p class="el-link-content-2">Interior design, Buildings</p>
-                    <div class="cnt-icons">
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="content-gallery-cell-top">
-                <div class="cnt-gl-lnk">
-                    <p class="el-link-txt-2">Creative buildings</p>
-                    <p class="el-link-content-2">Interior design, Buildings</p>
-                    <div class="cnt-icons">
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 content-offer-article-block">
+        <div class="content-offer-icon-link-2">
+            <a href="#">
+            </a>
         </div>
-        <div class="container clearfix">
-            <div class="content-gallery-cell-bot">
-                <div class="cnt-gl-lnk">
-                    <p class="el-link-txt-2">Creative buildings</p>
-                    <p class="el-link-content-2">Interior design, Buildings</p>
-                    <div class="cnt-icons">
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="content-gallery-cell-bot">
-                <div class="cnt-gl-lnk">
-                    <p class="el-link-txt-2">Creative buildings</p>
-                    <p class="el-link-content-2">Interior design, Buildings</p>
-                    <div class="cnt-icons">
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="content-gallery-cell-bot">
-                <div class="cnt-gl-lnk">
-                    <p class="el-link-txt-2">Creative buildings</p>
-                    <p class="el-link-content-2">Interior design, Buildings</p>
-                    <div class="cnt-icons">
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="content-gallery-cell-bot">
-                <div class="cnt-gl-lnk">
-                    <p class="el-link-txt-2">Creative buildings</p>
-                    <p class="el-link-content-2">Interior design, Buildings</p>
-                    <div class="cnt-icons">
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        <a href="#" class="cnt-icons-links"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
+        <div class="content-offer-article">
+            <span class="content-offer-article-header">
+                Vivamus tincidunt
+            </span>
+            <span class="content-offer-article-text">
+                Fusce velit magna, rutrum id pellentesque in,
+                imperdiet rutrum neque. Vestibulum elementum
+                ex ullamcorper ligula vulputate, non malesuada
+                nisi ullamcorper. Curabitur tellus ligula, laoreet
+                vitae lectus vitae.
+            </span>
         </div>
     </div>
-        <div class="content-gallery-footer">
-            <a href="#" class="content-gallery-footer-link">
-                View All Project
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+    <div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 content-offer-article-block">
+        <div class="content-offer-icon-link-3">
+            <a href="#">
+            </a>
+        </div>
+        <div class="content-offer-article">
+            <span class="content-offer-article-header">
+                Vivamus tincidunt
+            </span>
+            <span class="content-offer-article-text">
+                Fusce velit magna, rutrum id pellentesque in,
+                imperdiet rutrum neque. Vestibulum elementum
+                ex ullamcorper ligula vulputate, non malesuada
+                nisi ullamcorper. Curabitur tellus ligula, laoreet
+                vitae lectus vitae.
+            </span>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 content-offer-article-block">
+        <div class="content-offer-icon-link-4">
+            <a href="#">
+            </a>
+        </div>
+        <div class="content-offer-article">
+            <span class="content-offer-article-header">
+                Vivamus tincidunt
+            </span>
+            <span class="content-offer-article-text">
+                Fusce velit magna, rutrum id pellentesque in,
+                imperdiet rutrum neque. Vestibulum elementum
+                ex ullamcorper ligula vulputate, non malesuada
+                nisi ullamcorper. Curabitur tellus ligula, laoreet
+                vitae lectus vitae.
+            </span>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 content-offer-article-block">
+        <div class="content-offer-icon-link-5">
+            <a href="#">
+            </a>
+        </div>
+        <div class="content-offer-article">
+            <span class="content-offer-article-header">
+                Vivamus tincidunt
+            </span>
+            <span class="content-offer-article-text">
+                Fusce velit magna, rutrum id pellentesque in,
+                imperdiet rutrum neque. Vestibulum elementum
+                ex ullamcorper ligula vulputate, non malesuada
+                nisi ullamcorper. Curabitur tellus ligula, laoreet
+                vitae lectus vitae.
+            </span>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 content-offer-article-block">
+        <div class="content-offer-icon-link-6">
+            <a href="#">
+            </a>
+        </div>
+        <div class="content-offer-article">
+            <span class="content-offer-article-header">
+                Vivamus tincidunt
+            </span>
+            <span class="content-offer-article-text">
+                Fusce velit magna, rutrum id pellentesque in,
+                imperdiet rutrum neque. Vestibulum elementum
+                ex ullamcorper ligula vulputate, non malesuada
+                nisi ullamcorper. Curabitur tellus ligula, laoreet
+                vitae lectus vitae.
+            </span>
+        </div>
+    </div>
+</div>
+<div class="container-fluid row content-picture-container-bg ">
+    <div class="col-lg-6 col-md-12 col-sm-12 content-picture"></div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="content-picture-text">
+            <div class="content-picture-text-header">
+                Who we are
+            </div>
+            <div class="content-picture-text-main-1">
+                Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+                Praesent dui massa, condimentum a nisl quis, tristique
+                efficitur erat. Aenean ut suscipit urna. Donec efficitur
+                tristique lobortis. Nullam eu efficitur lacus, et blandit
+                tellus. Mauris viverra condimentum tellus vitae sollicitudin.
+                Mauris quis mattis urna. Suspendisse auctor magna quis ipsum
+                ultrices scelerisque. Vestibulum quis hendrerit enim. Aenean
+                viverra aliquam ex, sed ornare risus porta in.
+            </div>
+            <div class="content-picture-text-main-2">
+                Aenean ut suscipit urna. Donec efficitur tristique lobortis.
+                Nullam eu efficitur lacus, et blandit tellus. Mauris viverra
+                condimentum tellus vitae sollicitudin. Mauris quis mattis urna.
+                Suspendisse auctor magna quis ipsum ultrices scelerisque.
+                Vestibulum quis hendrerit enim. Aenean viverra aliquam ex,
+                sed ornare risus porta in.
+            </div>
+            <a class="content-picture-link">
+                Read more
             </a>
         </div>
     </div>
 </div>
-<div class="content-logos-container">
-        <div>
-            <a href="#" class="lg-lnk-1"></a>
-        </div>
-        <div>
-            <a href="#" class="lg-lnk-2"></a>
-        </div>
-        <div>
-            <a href="#" class="lg-lnk-3"></a>
-        </div>
-        <div>
-            <a href="#" class="lg-lnk-4"></a>
-        </div>
-        <div>
-            <a href="#" class="lg-lnk-5"></a>
-        </div>
+<div class="container content-work">
+    <div class="header-font content-header">
+        See our work
+    </div>
+    <div class="content-header-icon">
+        <i class="fa fa-cog" aria-hidden="true"></i>
+    </div>
+    <div class="content-work-subtext">
+        Mauris euismod ac nulla vitae fermentum. Morbi ut mauris massa.
+        Sed condimentum elit volutpat turpis sagittis, in scelerisque
+        dui luctus. Nulla id suscipit velit, a maximus massa.
+    </div>
+    <div class="content-work-nav">
+        <ul class="content-work-nav-bar">
+            <li class="content-work-nav-item">
+                <a href="#">All</a>
+            </li>
+            <li class="content-work-nav-item">
+                <a href="#">Web</a>
+            </li>
+            <li class="content-work-nav-item">
+                <a href="#">Logo Design</a>
+            </li>
+            <li class="content-work-nav-item">
+                <a href="#">Wordpress</a>
+            </li>
+            <li class="content-work-nav-item">
+                <a href="#">E-commerce</a>
+            </li>
+        </ul>
+    </div>
 </div>
+<div class="container-fluid row content-work-gallery">
+    <div class="">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 row content-work-gallery-item-1">
+            <div class="content-work-gallery-item-hover">
+                <a class="content-work-gallery-link" href="#"></a>
+                <div class="cnt-wr-g-txt">
+                    Labore et dolore magnam
+                </div>
+                <div class="cnt-wr-g-txt-2">
+                    Wordpress
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 content-work-gallery-item-2">
+            <div class="content-work-gallery-item-hover">
+                <a class="content-work-gallery-link" href="#"></a>
+                <div class="cnt-wr-g-txt">
+                    Labore et dolore magnam
+                </div>
+                <div class="cnt-wr-g-txt-2">
+                    Wordpress
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 content-work-gallery-item-3">
+            <div class="content-work-gallery-item-hover">
+                <a class="content-work-gallery-link" href="#"></a>
+                <div class="cnt-wr-g-txt">
+                    Labore et dolore magnam
+                </div>
+                <div class="cnt-wr-g-txt-2">
+                    Wordpress
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 content-work-gallery-item-4">
+            <div class="content-work-gallery-item-hover">
+                <a class="content-work-gallery-link" href="#"></a>
+                <div class="cnt-wr-g-txt">
+                    Labore et dolore magnam
+                </div>
+                <div class="cnt-wr-g-txt-2">
+                    Wordpress
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 content-work-gallery-item-5">
+            <div class="content-work-gallery-item-hover">
+                <a class="content-work-gallery-link" href="#"></a>
+                <div class="cnt-wr-g-txt">
+                    Labore et dolore magnam
+                </div>
+                <div class="cnt-wr-g-txt-2">
+                    Wordpress
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 content-work-gallery-item-6">
+            <div class="content-work-gallery-item-hover">
+                <a class="content-work-gallery-link" href="#"></a>
+                <div class="cnt-wr-g-txt">
+                    Labore et dolore magnam
+                </div>
+                <div class="cnt-wr-g-txt-2">
+                    Wordpress
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 content-work-gallery-item-7">
+            <div class="content-work-gallery-item-hover">
+                <a class="content-work-gallery-link" href="#"></a>
+                <div class="cnt-wr-g-txt">
+                    Labore et dolore magnam
+                </div>
+                <div class="cnt-wr-g-txt-2">
+                    Wordpress
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 content-work-gallery-item-8">
+            <div class="content-work-gallery-item-hover">
+                <a class="content-work-gallery-link" href="#"></a>
+                <div class="cnt-wr-g-txt">
+                    Labore et dolore magnam
+                </div>
+                <div class="cnt-wr-g-txt-2">
+                    Wordpress
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container col-lg-12 content-testimonials">
+    <div class="header-font content-header">
+        Testimonials
+    </div>
+    <div class="content-header-icon">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+    </div>
+    <div class="content-comments-container">
+        <div>
+            <div class="comment-cont">
+                <div class="comment-margin-cont">
+                    <div class="comment-1">
+                        “Neque porro quisquam est, qui dolorem
+                        ipsum quia dolor sit amet, consec tetur,
+                        adipisci velit, sed quia non numquam eiu
+                        modi tempora incidunt utis labore et
+                        dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minimas veniam, quis nostrum
+                        exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid amet untras
+                        vel illum qui.”
+                    </div>
+                    <div class="icon"></div>
+                    <div class="comment-info">
+                        <span class="comment-name">Jon Doe,</span>
+                        <span class="comment-company">Company Inc.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-cont">
+                <div class="comment-margin-cont">
+                    <div class="comment-1">
+                        “Neque porro quisquam est, qui dolorem
+                        ipsum quia dolor sit amet, consec tetur,
+                        adipisci velit, sed quia non numquam eiu
+                        modi tempora incidunt utis labore et
+                        dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minimas veniam, quis nostrum
+                        exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid amet untras
+                        vel illum qui.”
+                    </div>
+                    <div class="icon"></div>
+                    <div class="comment-info">
+                        <span class="comment-name">Jon Doe,</span>
+                        <span class="comment-company">Company Inc.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="comment-cont">
+                <div class="comment-margin-cont">
+                    <div class="comment-1">
+                        “Neque porro quisquam est, qui dolorem
+                        ipsum quia dolor sit amet, consec tetur,
+                        adipisci velit, sed quia non numquam eiu
+                        modi tempora incidunt utis labore et
+                        dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minimas veniam, quis nostrum
+                        exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid amet untras
+                        vel illum qui.”
+                    </div>
+                    <div class="icon"></div>
+                    <div class="comment-info">
+                        <span class="comment-name">Jon Doe,</span>
+                        <span class="comment-company">Company Inc.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-cont">
+                <div class="comment-margin-cont">
+                    <div class="comment-1">
+                        “Neque porro quisquam est, qui dolorem
+                        ipsum quia dolor sit amet, consec tetur,
+                        adipisci velit, sed quia non numquam eiu
+                        modi tempora incidunt utis labore et
+                        dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minimas veniam, quis nostrum
+                        exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid amet untras
+                        vel illum qui.”
+                    </div>
+                    <div class="icon"></div>
+                    <div class="comment-info">
+                        <span class="comment-name">Jon Doe,</span>
+                        <span class="comment-company">Company Inc.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="comment-cont">
+                <div class="comment-margin-cont">
+                    <div class="comment-1">
+                        “Neque porro quisquam est, qui dolorem
+                        ipsum quia dolor sit amet, consec tetur,
+                        adipisci velit, sed quia non numquam eiu
+                        modi tempora incidunt utis labore et
+                        dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minimas veniam, quis nostrum
+                        exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid amet untras
+                        vel illum qui.”
+                    </div>
+                    <div class="icon"></div>
+                    <div class="comment-info">
+                        <span class="comment-name">Jon Doe,</span>
+                        <span class="comment-company">Company Inc.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-cont">
+                <div class="comment-margin-cont">
+                    <div class="comment-1">
+                        “Neque porro quisquam est, qui dolorem
+                        ipsum quia dolor sit amet, consec tetur,
+                        adipisci velit, sed quia non numquam eiu
+                        modi tempora incidunt utis labore et
+                        dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minimas veniam, quis nostrum
+                        exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid amet untras
+                        vel illum qui.”
+                    </div>
+                    <div class="icon"></div>
+                    <div class="comment-info">
+                        <span class="comment-name">Jon Doe,</span>
+                        <span class="comment-company">Company Inc.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="comment-cont">
+                <div class="comment-margin-cont">
+                    <div class="comment-1">
+                        “Neque porro quisquam est, qui dolorem
+                        ipsum quia dolor sit amet, consec tetur,
+                        adipisci velit, sed quia non numquam eiu
+                        modi tempora incidunt utis labore et
+                        dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minimas veniam, quis nostrum
+                        exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid amet untras
+                        vel illum qui.”
+                    </div>
+                    <div class="icon"></div>
+                    <div class="comment-info">
+                        <span class="comment-name">Jon Doe,</span>
+                        <span class="comment-company">Company Inc.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-cont">
+                <div class="comment-margin-cont">
+                    <div class="comment-1">
+                        “Neque porro quisquam est, qui dolorem
+                        ipsum quia dolor sit amet, consec tetur,
+                        adipisci velit, sed quia non numquam eiu
+                        modi tempora incidunt utis labore et
+                        dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minimas veniam, quis nostrum
+                        exercitationem ullam corporis suscipit
+                        laboriosam, nisi ut aliquid amet untras
+                        vel illum qui.”
+                    </div>
+                    <div class="icon"></div>
+                    <div class="comment-info">
+                        <span class="comment-name">Jon Doe,</span>
+                        <span class="comment-company">Company Inc.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-12 footer">
+
+</div>
+<script src="jquery-2.2.4.min.js"></script>
+<script src="https://use.fontawesome.com/044c885ff3.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.content-logos-container').slick({
-            setting-name: setting-value
-    });
-    });
-</script>
-<script type="text/javascript">
-    $('.content-logos-container').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        nextArrow: '<i class="fa fa-arrow-right slick-next-l"></i>',
-        prevArrow: '<i class="fa fa-arrow-left slick-prev-l"></i>'
-    });
-</script>
-<div class="comments-container">
-    <div class="container">
-        <div class="content-heading-top-2">
-                <p class="content-heading-top-services-2">What They Say</p>
-                <p class="content-heading-top-symbol-2">&</p>
-            </div>
-        <div class="third-container">
-            <div>
-                <div class="content-avatar">
-                </div>
-                <div class="content-heading-txt">
-                    Lectus sem potenti placerat taciti nullam sit proin
-                    lacus sociis posuere cras eu nostra a aenean maecenas
-                    nibh ad metus. Ad parturient vestibulum mi magnis
-                    adipiscing ullamcorper ac a dolor potenti a eget amet a porttitor.
-                </div>
-                <div class="content-heading-name">
-       <span>
-           John Doe
-       </span>
-       <span class="content-span-symbol">
-           -
-       </span>
-       <span class="content-span-txt">
-            Envato
-       </span>
-                </div>
-            </div>
-            <div>
-                <div class="content-avatar">
-                </div>
-                <div class="content-heading-txt">
-                    Lectus sem potenti placerat taciti nullam sit proin
-                    lacus sociis posuere cras eu nostra a aenean maecenas
-                    nibh ad metus. Ad parturient vestibulum mi magnis
-                    adipiscing ullamcorper ac a dolor potenti a eget amet a porttitor.
-                </div>
-                <div class="content-heading-name">
-       <span>
-           John Doe
-       </span>
-       <span class="content-span-symbol">
-           -
-       </span>
-       <span class="content-span-txt">
-            Envato
-       </span>
-                </div>
-            </div>
-            <div>
-                <div class="content-avatar">
-                </div>
-                <div class="content-heading-txt">
-                    Lectus sem potenti placerat taciti nullam sit proin
-                    lacus sociis posuere cras eu nostra a aenean maecenas
-                    nibh ad metus. Ad parturient vestibulum mi magnis
-                    adipiscing ullamcorper ac a dolor potenti a eget amet a porttitor.
-                </div>
-                <div class="content-heading-name">
-       <span>
-           John Doe
-       </span>
-       <span class="content-span-symbol">
-           -
-       </span>
-       <span class="content-span-txt">
-            Envato
-       </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.third-container').slick({
-            setting-name: setting-value
-    });
-    });
-</script>
-<script type="text/javascript">
-    $('.third-container').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        nextArrow: '<i class="slick-next-a"></i>',
-        prevArrow: '<i class="slick-prev-a"></i>'
-    });
-</script>
-<div class="blog">
-    <div class="container">
-        <div class="content-heading-top">
-        <p class="content-heading-top-blog">Blog</p>
-        <p class="content-heading-top-symbol">&</p>
-        <p class="content-heading-top-text">Nulla nullam a mattis semper a vestibulum commodo mi consectetur a penatibus.</p>
-    </div>
-     <div class="content-article container">
-        <div class="content-article-cell">
-            <div class="content-article-inner">
-                <p class="article-header">
-                    Aptent id id inceptos nam pretium
-                </p>
-                <p class="article-content">
-                    Id nulla cum mi diam dui quam mi donec
-                    dui parturient cum suscipit amet vel suspendisse
-                    fringilla. Donec a vulputate aenean iaculis in id nibh a odio.
-                </p>
-                <a href="" class="article-content-link">
-                    Read more
-                </a>
-            </div>
-        </div>
-        <div class="content-article-cell">
-            <div class="content-article-inner">
-                <p class="article-header">
-                    Nulla nullam a mattis semper a vestibulum
-                </p>
-                <p class="article-content">
-                    Adipiscing netus purus amet ut dui consequat
-                    suspendisse semper duis laoreet fermentum a
-                    a ligula ut posuere parturient.Per commodo.
-                </p>
-                <a href="" class="article-content-link">
-                    Read more
-                </a>
-            </div>
-        </div>
-        <div class="content-article-cell">
-            <div class="content-article-inner">
-                <p class="article-header">
-                    Vestibulum praesent parturient tellus
-                </p>
-                <p class="article-content">
-                    Porta habitasse litora nunc vel primis
-                    dolor id fames egestas parturient blandit
-                    in blandit ad. Mus a hac a ac cras blandit
-                    himenaeos condimentum.
-                </p>
-                <a href="" class="article-content-link">
-                    Read more
-                </a>
-            </div>
-        </div>
-        <div class="content-article-cell">
-            <div class="content-article-inner">
-                <p class="article-header">
-                    Leo magnis phasellus porttitor at tempor
-                </p>
-                <p class="article-content">
-                    Felis dolor integer facilisis habitasse
-                    a himenaeos urna aliquam taciti ipsum amet
-                    eleifend eros nulla quisque penatibus orci.
-                    Vel sed.
-                </p>
-                <a href="" class="article-content-link">
-                    Read more
-                </a>
-            </div>
-        </div>
-    </div>
-        <div class="content-gallery-footer">
-        <a href="#" class="content-gallery-footer-link">
-            View All Blog Post
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-        </a>
-    </div>
-    </div>
-</div>
-<div class="footer-top">
-    <div class="container">
-        <div class="footer-txt-lnk">
-            <span>If you like the theme you just purchased in architurex!</span>
-            <a href="#" class="footer-content-link">Buy now</a>
-        </div>
-    </div>
-</div>
-<div class="footer-bottom">
-    <div class="container">
-        <div class="footer-logo">
-        <span>Architecture</span>
-    </div>
-        <div class="footer">
-        <a href="https://www.facebook.com/" class="footer-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/" class="footer-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="https://plus.google.com/" class="footer-google"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/" class="footer-linked"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/" class="footer-insta"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-    </div>
-        <div class="footer-copyright">
-            Copyright © 2015Theme Design by Enes Aktaş
-        </div>
-    </div>
-</div>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="slider.js"></script>
 </body>
 </html>
