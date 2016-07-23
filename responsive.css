@@ -140,22 +140,13 @@
         height: 100px;
     }
 
-    .anchor-class {
+    /*.anchor-class {
         top: -178px;
         position: absolute;
-        /*border: 1px solid red;*/
-    }
+        /*border: 1px solid red;
+    }*/
 
 }
-
-@media handheld and (min-width: 480px) and (max-width: 768px) {
-    .anchor-class {
-        position: absolute;
-        /*border: 1px solid red;*/
-    }
-}
-
-
 
 @media screen and (max-width: 479px) {
 
@@ -266,16 +257,9 @@
         height: 100px;
     }
 
-    .anchor-class {
+    /*.anchor-class {
         top: -178px;
         position: absolute;
-        /*border: 1px solid red;*/
-    }
-}
-
-@media handheld and (max-width: 479px) {
-    .anchor-class {
-        position: absolute;
-        /*border: 1px solid red;*/
-    }
+        /*border: 1px solid red;
+    }*/
 }
