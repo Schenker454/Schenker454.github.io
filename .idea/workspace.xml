@@ -20,7 +20,7 @@
     <favorites_list name="NinjaFrontEndProject3" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.26811594">
+    <splitter split-orientation="horizontal" split-proportion="0.114503816">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
@@ -42,14 +42,14 @@
       <split-second>
         <splitter split-orientation="horizontal" split-proportion="0.73106474">
           <split-first>
-            <splitter split-orientation="horizontal" split-proportion="0.41847205">
+            <splitter split-orientation="horizontal" split-proportion="0.6739927">
               <split-first>
                 <leaf>
                   <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/responsive.css">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state vertical-scroll-proportion="0.73657715">
-                          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+                        <state vertical-scroll-proportion="0.82885903">
+                          <caret line="280" column="1" selection-start-line="280" selection-start-column="1" selection-end-line="280" selection-end-column="1" />
                           <folding />
                         </state>
                       </provider>
@@ -125,9 +125,9 @@
         <option value="$PROJECT_DIR$/navbar.js" />
         <option value="$PROJECT_DIR$/scroll.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/responsive.css" />
         <option value="$PROJECT_DIR$/mainstyles.scss" />
         <option value="$PROJECT_DIR$/mainstyles.css" />
+        <option value="$PROJECT_DIR$/responsive.css" />
       </list>
     </option>
   </component>
@@ -139,9 +139,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="671" />
-    <option name="y" value="86" />
-    <option name="width" value="1877" />
+    <option name="x" value="369" />
+    <option name="y" value="56" />
+    <option name="width" value="1924" />
     <option name="height" value="851" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -278,10 +278,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="671" y="86" width="1877" height="851" extended-state="0" />
+    <frame x="369" y="56" width="1924" height="851" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0995106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09703075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -591,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73657715">
-          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainstyles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7614035">
@@ -611,6 +603,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33557048">
           <caret line="418" column="0" selection-start-line="418" selection-start-column="0" selection-end-line="418" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82885903">
+          <caret line="280" column="1" selection-start-line="280" selection-start-column="1" selection-end-line="280" selection-end-column="1" />
           <folding />
         </state>
       </provider>
