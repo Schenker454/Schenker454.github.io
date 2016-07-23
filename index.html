@@ -25,31 +25,39 @@
                 <span>Business Name</span>
             </div>
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-9" id="header-links-block">
             <div class="navbar">
                 <ul class="header-list">
                     <li>
                         <a href="#">Home</a>
                     </li>
-                    <li>
+                    <li class="expand-services">
+                        <a class="service" href="">Services</a>
                         <div class="header-list-item-expand">
-                            <a href="#">Services</a>
-                            <a href="">Service 1</a>
-                            <a href="">Service 2</a>
-                            <a href="">Service 3</a>
+                            <ul>
+                                <li>
+                                    <a href="#services">Service 1</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Service 1</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Service 1</a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Testimonials</a>
+                        <a href="#testimonials">Testimonials</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -95,6 +103,8 @@
 </header>
 <div class="container content-offer">
     <div class="col-lg-12">
+        <div class="anchor-class" id="services">
+        </div>
         <span class="header-font content-header-text">What we offer</span>
         <span class="content-offer-subtext">Vestibulum elementum ex ullamcorper ligula vulputate</span>
     </div>
@@ -207,7 +217,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid row content-picture-container-bg ">
+<div class="container-fluid row content-picture-container-bg" id="about">
     <div class="col-lg-6 col-md-12 col-sm-12 content-picture"></div>
     <div class="col-lg-6 col-md-12 col-sm-12">
         <div class="content-picture-text">
@@ -239,7 +249,7 @@
     </div>
 </div>
 <div class="container content-work">
-    <div class="header-font content-header">
+    <div class="header-font content-header" id="portfolio">
         See our work
     </div>
     <div class="content-header-icon">
@@ -364,7 +374,7 @@
         </div>
     </div>
 </div>
-<div class="container content-testimonials">
+<div class="container content-testimonials" id="testimonials">
     <div class="header-font content-header">
         Testimonials
     </div>
@@ -542,7 +552,7 @@
         </div>
     </div>
 </div>
-<div class="footer">
+<div class="footer" id="contact">
     <div class="container">
         <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="footer-header-1">
@@ -663,6 +673,7 @@
     </div>
 </div>
 <script src="jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
 <script src="https://use.fontawesome.com/044c885ff3.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>

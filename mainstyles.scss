@@ -81,15 +81,15 @@ $content-offer-article-text: #7b7b7b;
   width: 181px;
 }
 .header-list {
-  width: 620px;
+  width: 570px;
   float: right;
   padding-top: 40px;
 }
 
 .header-list li {
   float: left;
-  margin-left: 40px;
-  display: inline-block;
+  padding: 0 20px;
+  display: block;
 }
 
 .header-list li a {
@@ -110,6 +110,7 @@ $content-offer-article-text: #7b7b7b;
 
 .header-text .slick-next {
   right: -25%;
+  top: 80px;
   width: 43px;
   height: 43px;
   border: 2px solid #709dca;
@@ -123,6 +124,9 @@ $content-offer-article-text: #7b7b7b;
   content: '\f105';
   font-weight: 700;
   line-height: 18px;
+  position: absolute;
+  left: 15px;
+  top: 9px;
 }
 
 .header-text .slick-prev {
@@ -131,7 +135,9 @@ $content-offer-article-text: #7b7b7b;
   height: 43px;
   border: 2px solid #709dca;
   border-radius: 21.5px;
+  top: 80px;
 }
+
 
 .header-text .slick-prev:before {
   font-family: FontAwesome, serif;
@@ -140,7 +146,11 @@ $content-offer-article-text: #7b7b7b;
   content: '\f104';
   font-weight: 700;
   line-height: 18px;
+  position: absolute;
+  left: 13px;
+  top: 9px;
 }
+
 
 .header-text .slick-dots {
   position: relative;
@@ -198,6 +208,10 @@ $content-offer-article-text: #7b7b7b;
 }
 
 /*Content offer styles*/
+
+.content-header {
+  padding-top: 30px;
+}
 
 .content-offer {
   text-align: center;
@@ -335,9 +349,10 @@ $content-offer-article-text: #7b7b7b;
 /*Content work styles*/
 
 .content-work {
-  padding-top: 100px;
+  padding-top: 70px;
   text-align: center;
 }
+
 
 .content-header {
 }
@@ -729,24 +744,32 @@ $content-offer-article-text: #7b7b7b;
 
 /*Expand menu styles*/
 
-.header-list-item-expand {
-  /*border: 1px solid red;*/
-  text-align: left;
-  width: 65px;
-  height: 20px;
-  margin-bottom: 80px;
-  overflow: hidden;
-  transition: all 0.5s ease 0s;
-  cursor: pointer;
-  box-sizing: border-box;
-  &:hover {
-    overflow: visible;
-    opacity: 1.0;
-    height: 90px;
+.expand-services {
+  position: relative;
+  &:hover .header-list-item-expand {
+    display: block;
+    z-index: 1;
   }
 }
 
+
+.header-list-item-expand {
+  /*border: 1px solid red;*/
+  text-align: left;
+  /*width: 65px;*/
+  display: none;
+  position: absolute;
+}
+
+.header-list-item-expand li {
+  float: none;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
 .header-list-item-expand a {
+  text-align: left;
+  display: inline-block;
   &:hover {
     color: #71b6d5;
   }
@@ -770,4 +793,7 @@ $content-offer-article-text: #7b7b7b;
 
 .navbar-2 .slicknav_nav ul {
   margin: 0 0;
+}
+
+.anchor-class {
 }
