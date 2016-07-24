@@ -67,8 +67,8 @@
 .header-text .slick-next {
   right: -25%;
   top: 80px;
-  width: 43px;
-  height: 43px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #709dca;
   border-radius: 21.5px;
 }
@@ -87,8 +87,8 @@
 
 .header-text .slick-prev {
   left: -25%;
-  width: 43px;
-  height: 43px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #709dca;
   border-radius: 21.5px;
   top: 80px;
@@ -102,7 +102,7 @@
   font-weight: 700;
   line-height: 18px;
   position: absolute;
-  left: 13px;
+  left: 11px;
   top: 9px;
 }
 
@@ -118,10 +118,22 @@
 }
 
 .header-text .slick-dots li.slick-active button:before {
+  /*font-family: FontAwesome;
+  font-size: 20px;
   opacity: 1.0;
-  border: 2px solid white;
-  border-radius: 50%;
   color: white;
+  content: "\f1db";*/
+}
+
+.header-text .slick-dots li.slick-active button:after {
+  font-family: FontAwesome;
+  font-size: 26px;
+  opacity: 1.0;
+  color: white;
+  content: "\f1db";
+  position: absolute;
+  left: -1px;
+  bottom: 12px;
 }
 
 .header-text-top, .header-text-sub {
@@ -159,6 +171,7 @@
   border-radius: 5px;
   margin-top: 95px;
   transition: all 0.5s ease 0s;
+  outline: none;
 }
 .header-link a:hover {
   text-decoration: none;

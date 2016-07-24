@@ -152,6 +152,13 @@
         height: 100px;
     }
 
+    .header-link a {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 479px) {
@@ -166,7 +173,11 @@
     }
 
     .header-text-top {
-        font-size: 24px
+        font-size: 18px
+    }
+
+    .header-text-sub {
+        font-size: 14px;
     }
 
     .content-picture-text {
@@ -262,6 +273,13 @@
 
     .expand-services:hover .header-list-item-expand {
         height: 100px;
+    }
+
+    .header-link a {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 12px;
     }
 }
 
