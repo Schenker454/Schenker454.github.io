@@ -1,10 +1,7 @@
-@charset "UTF-8";
-/*font-family: 'PT Sans', sans-serif;*/
 /*header-logo-section-styles*/
 .header-bg {
   background: url("images/bmw.png") top left no-repeat;
   background-size: cover;
-  /*height: 795px;*/
 }
 
 .header-logo-container {
@@ -76,7 +73,6 @@
 .header-navblock-links-item {
   display: inline-block;
   margin: 0 9px;
-  /* Text style for "?╙???????????╧ ?▀?└???????├" */
 }
 .header-navblock-links-item a {
   font-family: 'PT Sans', sans-serif;
@@ -189,7 +185,6 @@
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
-  /* Text style for "?▐?┴?┬?????╠?┬?? ?????╧????" */
   font-size: 30px;
   text-align: right;
 }
@@ -212,9 +207,6 @@
 .content-gbo-text-container {
   margin: 0 auto;
   width: 78.97436%;
-  /*padding-bottom: 728px;
-  background: url("images/gbo-bg.png") center no-repeat;
-  background-size: contain;*/
 }
 
 .content-gbo-text-block-header {
@@ -228,13 +220,6 @@
   padding-bottom: 80px;
 }
 
-/*.content-gbo-text-block-main {
-  margin-top: 80px;
-  color: black;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 19px;
-  font-weight: 400;
-}*/
 .content-gbo-text-block-left {
   padding-left: 125px;
   padding-right: 85px;
@@ -247,29 +232,21 @@
 .text-block-l-item-1 {
   position: relative;
   padding-bottom: 65px;
-  /*padding-left: 85px;
-  padding-right: 85px;*/
 }
 
 .text-block-l-item-2 {
   position: relative;
   padding-bottom: 65px;
-  /*padding-left: 85px;
-  padding-right: 85px;*/
 }
 
 .text-block-l-item-3 {
   position: relative;
   padding-bottom: 65px;
-  /*padding-left: 85px;
-  padding-right: 85px;*/
 }
 
 .text-block-l-item-4 {
   position: relative;
   padding-bottom: 65px;
-  /*padding-left: 85px;
-  padding-right: 85px;*/
 }
 
 .text-block-l-item-1:before {
@@ -534,7 +511,6 @@ input[type="range"] {
 .content-we-r {
   width: 50%;
   float: right;
-  /*padding-bottom: 744px;*/
   box-sizing: border-box;
   padding-bottom: 111px;
   position: relative;
@@ -638,7 +614,6 @@ input[type="range"] {
 .install-gallery-cont {
   margin: 0 auto;
   width: 920px;
-  /* border: 1px solid red; */
 }
 
 .gallery-left-block {
@@ -650,7 +625,6 @@ input[type="range"] {
 .gallery-left-item-1 {
   background: url("images/left-item-1.png") no-repeat;
   background-size: cover;
-  /* padding-bottom: 180px; */
   margin-bottom: 15px;
   text-align: center;
   font-size: 40px;
@@ -677,7 +651,6 @@ input[type="range"] {
 .gallery-left-item-2 {
   background: url("images/left-item-1.png") no-repeat;
   background-size: cover;
-  /* padding-bottom: 180px; */
   margin-bottom: 15px;
   text-align: center;
   font-size: 40px;
@@ -706,8 +679,6 @@ input[type="range"] {
   background: url("images/center-item.png") top center no-repeat;
   background-size: cover;
   width: 482px;
-  /* padding-bottom: 180px; */
-  /* margin-bottom: 15px; */
   text-align: center;
   font-size: 40px;
   height: 341px;
@@ -735,7 +706,6 @@ input[type="range"] {
 .gallery-right-item-1 {
   background: url("images/right-item-1.png") no-repeat;
   background-size: cover;
-  /* padding-bottom: 180px; */
   margin-bottom: 15px;
   text-align: center;
   font-size: 40px;
@@ -762,7 +732,6 @@ input[type="range"] {
 .gallery-right-item-2 {
   background: url("images/right-item-2.png") no-repeat;
   background-size: cover;
-  /* padding-bottom: 180px; */
   margin-bottom: 15px;
   text-align: center;
   font-size: 40px;

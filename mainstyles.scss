@@ -1,20 +1,17 @@
-/*font-family: 'PT Sans', sans-serif;*/
 
 /*header-logo-section-styles*/
+
 
 $padding-value: 0px;
 
 .header-bg {
   background: url("images/bmw.png") top left no-repeat;
   background-size: cover;
-  /*height: 795px;*/
 }
 
 .header-logo-container {
   float: left;
 }
-
-
 
 .header-logo {
   font-family: 'PT Sans', sans-serif;
@@ -81,7 +78,6 @@ $padding-value: 0px;
 .header-navblock-links-item {
   display: inline-block;
   margin: 0 9px;
-  /* Text style for "?Ó???????????Ï ?ß?À???????Ã" */
   & a {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
@@ -201,7 +197,6 @@ $padding-value: 0px;
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
-  /* Text style for "?Þ?Á?Â?????Ì?Â?? ?????Ï????" */
   font-size: 30px;
   text-align: right;
 }
@@ -225,9 +220,6 @@ $padding-value: 0px;
 .content-gbo-text-container {
   margin: 0 auto;
   width: 924px/1170px*100%;
-  /*padding-bottom: 728px;
-  background: url("images/gbo-bg.png") center no-repeat;
-  background-size: contain;*/
 }
 
 .content-gbo-text-block-header {
@@ -240,14 +232,6 @@ $padding-value: 0px;
   padding-top: 36px;
   padding-bottom: 80px;
 }
-
-/*.content-gbo-text-block-main {
-  margin-top: 80px;
-  color: black;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 19px;
-  font-weight: 400;
-}*/
 
 .content-gbo-text-block-left {
   padding-left: 125px;
@@ -262,8 +246,6 @@ $padding-value: 0px;
   .text-block-l-item-#{$i} {
     position: relative;
     padding-bottom: 65px;
-    /*padding-left: 85px;
-    padding-right: 85px;*/
   }
 }
 
@@ -502,8 +484,8 @@ input[type="range"] {
 }
 
 /*We styles*/
-.content-we {
 
+.content-we {
 }
 
 .content-we-l {
@@ -527,7 +509,6 @@ input[type="range"] {
 .content-we-r {
   width: 50%;
   float: right;
-  /*padding-bottom: 744px;*/
   box-sizing: border-box;
   padding-bottom: 111px;
   position: relative;
@@ -638,7 +619,6 @@ input[type="range"] {
 .install-gallery-cont {
   margin: 0 auto;
   width: 920px;
-  /* border: 1px solid red; */
 }
 
 
@@ -653,7 +633,6 @@ input[type="range"] {
   .gallery-left-item-#{$i} {
     background: url("images/left-item-1.png") no-repeat;
     background-size: cover;
-    /* padding-bottom: 180px; */
     margin-bottom: 15px;
     text-align: center;
     font-size: 40px;
@@ -686,8 +665,6 @@ input[type="range"] {
   background: url("images/center-item.png") top center no-repeat;
   background-size: cover;
   width: 482px;
-  /* padding-bottom: 180px; */
-  /* margin-bottom: 15px; */
   text-align: center;
   font-size: 40px;
   height: 341px;
@@ -718,7 +695,6 @@ input[type="range"] {
   .gallery-right-item-#{$i} {
     background: url("images/right-item-#{$i}.png") no-repeat;
     background-size: cover;
-    /* padding-bottom: 180px; */
     margin-bottom: 15px;
     text-align: center;
     font-size: 40px;
