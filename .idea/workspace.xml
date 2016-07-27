@@ -26,8 +26,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="4.2910347">
-                  <caret line="198" column="25" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.6427586">
+                  <caret line="489" column="62" selection-start-line="489" selection-start-column="62" selection-end-line="489" selection-end-column="62" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -42,8 +42,8 @@
           <file leaf-file-name="mainstyles.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainstyles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.2614943">
-                  <caret line="537" column="18" selection-start-line="537" selection-start-column="18" selection-end-line="537" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.43103448">
+                  <caret line="839" column="43" selection-start-line="839" selection-start-column="43" selection-end-line="839" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -77,8 +77,8 @@
         <option value="$PROJECT_DIR$/rng.js" />
         <option value="$PROJECT_DIR$/responsive.scss" />
         <option value="$PROJECT_DIR$/economy.js" />
-        <option value="$PROJECT_DIR$/mainstyles.scss" />
         <option value="$PROJECT_DIR$/sliding.js" />
+        <option value="$PROJECT_DIR$/mainstyles.scss" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -91,8 +91,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="569" />
-    <option name="y" value="45" />
+    <option name="x" value="121" />
+    <option name="y" value="19" />
     <option name="width" value="1692" />
     <option name="height" value="997" />
   </component>
@@ -216,7 +216,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="569" y="45" width="1692" height="997" extended-state="0" />
+    <frame x="121" y="19" width="1692" height="997" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14510278" sideWeight="0.4951989" order="0" side_tool="false" content_ui="combo" />
@@ -454,16 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.2910347">
-          <caret line="198" column="25" selection-start-line="198" selection-start-column="25" selection-end-line="198" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sliding.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13581891">
@@ -476,9 +466,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainstyles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2614943">
-          <caret line="537" column="18" selection-start-line="537" selection-start-column="18" selection-end-line="537" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.43103448">
+          <caret line="839" column="43" selection-start-line="839" selection-start-column="43" selection-end-line="839" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6427586">
+          <caret line="489" column="62" selection-start-line="489" selection-start-column="62" selection-end-line="489" selection-end-column="62" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
