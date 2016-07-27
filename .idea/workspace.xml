@@ -26,8 +26,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6427586">
-                  <caret line="489" column="62" selection-start-line="489" selection-start-column="62" selection-end-line="489" selection-end-column="62" />
+                <state vertical-scroll-proportion="0.2910345">
+                  <caret line="474" column="23" selection-start-line="474" selection-start-column="23" selection-end-line="474" selection-end-column="23" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -42,8 +42,8 @@
           <file leaf-file-name="mainstyles.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainstyles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.43103448">
-                  <caret line="839" column="43" selection-start-line="839" selection-start-column="43" selection-end-line="839" selection-end-column="43" />
+                <state vertical-scroll-proportion="0.5862069">
+                  <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +78,8 @@
         <option value="$PROJECT_DIR$/responsive.scss" />
         <option value="$PROJECT_DIR$/economy.js" />
         <option value="$PROJECT_DIR$/sliding.js" />
-        <option value="$PROJECT_DIR$/mainstyles.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/mainstyles.scss" />
       </list>
     </option>
   </component>
@@ -91,8 +91,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="121" />
-    <option name="y" value="19" />
+    <option name="x" value="161" />
+    <option name="y" value="13" />
     <option name="width" value="1692" />
     <option name="height" value="997" />
   </component>
@@ -216,10 +216,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="121" y="19" width="1692" height="997" extended-state="0" />
-    <editor active="false" />
+    <frame x="161" y="13" width="1692" height="997" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14510278" sideWeight="0.4951989" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14510278" sideWeight="0.4951989" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -466,16 +466,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainstyles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43103448">
-          <caret line="839" column="43" selection-start-line="839" selection-start-column="43" selection-end-line="839" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.5862069">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6427586">
-          <caret line="489" column="62" selection-start-line="489" selection-start-column="62" selection-end-line="489" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.2910345">
+          <caret line="474" column="23" selection-start-line="474" selection-start-column="23" selection-end-line="474" selection-end-column="23" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
