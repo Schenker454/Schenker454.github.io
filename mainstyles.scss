@@ -418,6 +418,10 @@ input[type="range"] {
 }
 
 .petrol-price-style {
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
   display: block;
   float: left;
   width: 55px;
@@ -426,6 +430,7 @@ input[type="range"] {
   border: 1px solid #aaa;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.75);
   margin-left: 25px;
+  text-align: center;
 }
 
 .economy-results-block {
